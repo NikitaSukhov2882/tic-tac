@@ -1,0 +1,31 @@
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.start {
+    width: 200px;
+    height: 35px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    background-color: #222222;
+}
+
+.start:hover {
+    background-color: white;
+    color: #222222;
+    transition: .3s all ease;
+}
+
+.prompt {
+    margin: 20px;
+    color: white;
+}
